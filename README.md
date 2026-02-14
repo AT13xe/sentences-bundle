@@ -2,9 +2,6 @@
 
 一言开源社区官方提供的语句库，系 `hitokoto.cn` 数据打包集合。语句接口默认使用此库。
 
-## 使用方法
-
-参考： <https://sentences-bundle.hitokoto.cn>
 
 ## 使用须知
 
