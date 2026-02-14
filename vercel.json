@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/hitokoto.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/hitokoto.js"
+    },
+    {
+      "src": "/ping",
+      "dest": "/api/hitokoto.js"
+    },
+    {
+      "src": "/status",
+      "dest": "/api/hitokoto.js"
+    },
+    {
+      "src": "/sentences/(.*)",
+      "dest": "/sentences/$1"
+    }
+  ]
+}
